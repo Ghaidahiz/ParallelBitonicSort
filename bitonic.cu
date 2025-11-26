@@ -40,13 +40,11 @@ int main()
     }
 
 
-    int N;
-    cout << "How many numbers in the array? ";
-    cin >> N;
+    int N=8;
 
     vector<int> numbers(N); 
 
-    cout << "Enter the numbers:\n";
+    cout << "Enter 8 numbers to sort:\n";
     for (int i = 0; i < N; i++) {
         cin >> numbers[i];
     }
